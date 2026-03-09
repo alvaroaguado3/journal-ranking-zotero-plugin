@@ -1,0 +1,24 @@
+{
+  "name": "journal-ranking-zotero-plugin",
+  "version": "1.0.0",
+  "description": "Zotero 8 plugin to fetch and append journal impact rankings",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node build.js --watch",
+    "package": "npm run build && node package-xpi.js"
+  },
+  "keywords": [
+    "zotero",
+    "plugin",
+    "journal",
+    "impact",
+    "sjr",
+    "ranking"
+  ],
+  "author": "Alvaro Aguado <alvaroaguado3@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "archiver": "^7.0.0",
+    "esbuild": "^0.20.0"
+  }
+}
