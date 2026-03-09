@@ -213,8 +213,7 @@ if (!Zotero.JournalRanking.SJR) {
         const works_count = source.works_count || 0;
         const cited_by_count = source.cited_by_count || 0;
         const h_index = source.summary_stats?.h_index || 0;
-        const i10_index = source.summary_stats?.i10_index || 0;
-        const two_yr_mean_citedness = source.summary_stats?.['2yr_mean_citedness'] || 0;
+const two_yr_mean_citedness = source.summary_stats?.['2yr_mean_citedness'] || 0;
         
         // Log the raw values for debugging
         Zotero.debug(`OpenAlex: Metrics - H-Index: ${h_index}, 2yr citedness: ${two_yr_mean_citedness}, Citations: ${cited_by_count}`);
