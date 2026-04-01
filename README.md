@@ -1,5 +1,10 @@
 # Journal Impact Ranking for Zotero 8
 
+[![Build XPI](https://github.com/alvaroaguado3/journal-ranking-zotero-plugin/actions/workflows/build.yml/badge.svg)](https://github.com/alvaroaguado3/journal-ranking-zotero-plugin/actions/workflows/build.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Zotero 8](https://img.shields.io/badge/Zotero-8.0%2B-cc2936)](https://www.zotero.org/)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/alvaroaguado3/journal-ranking-zotero-plugin/releases)
+
 A Zotero 8 plugin that automatically fetches and appends journal impact metrics to bibliography entries in your Zotero library using [OpenAlex](https://openalex.org/) — a free, open academic graph.
 
 ---
